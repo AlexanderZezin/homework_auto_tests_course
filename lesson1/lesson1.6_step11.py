@@ -3,7 +3,7 @@ from selenium.webdriver.common.by import By
 import time
 
 try:
-    link = "http://suninjuly.github.io/registration1.html"
+    link = "http://suninjuly.github.io/registration2.html"
     browser = webdriver.Chrome()
     browser.get(link)
 
@@ -37,4 +37,3 @@ finally:
     time.sleep(10)
     # закрываем браузер после всех манипуляций
     browser.quit()
-
